@@ -4,7 +4,7 @@ set -e
 
 if [ $# != 1 ]; then
     echo $0 launch_id
-    exit 2
+    return 1
 fi
 
 # launch machine

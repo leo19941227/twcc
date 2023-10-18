@@ -4,7 +4,7 @@ set -e
 
 if [ $# != 1 ]; then
     echo Please specify GPU num.
-    exit 1
+    return 1
 fi
 
 gpu=$1
